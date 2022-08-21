@@ -1,13 +1,6 @@
 name: Build
 
-on:
-  push:
-    branches:
-      - '**'
-    tags-ignore:
-      - '**'
-    paths-ignore:
-      - README.md
+on: workflow_dispatch
 
 jobs:
   renderer:
